@@ -3,3 +3,14 @@
      padding: 0;
      box-sizing: border-box;
 }
+.section_container
+{
+    display: flex;
+    justify-content: center;
+}
+.input_container
+{
+    height: 25px;
+    border-radius: 15%;
+    width:
+}
