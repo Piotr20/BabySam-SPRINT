@@ -3,16 +3,15 @@
      padding: 0;
      box-sizing: border-box;
 }
-.section_container
-{
-    display: flex;
-    justify-content: center;
+
+.section_container {
+     display: flex;
+     justify-content: center;
 }
-.input_container
-{
-    height: 25px;
-    border-radius: 15%;
-    width:
+
+.input_container {
+     height: 25px;
+     border-radius: 15%;
 }
 
 header {
@@ -35,13 +34,37 @@ header i {
 
 header nav {
      height: 7vh;
+     margin-right: 148px;
 }
 
 nav a {
      height: 7vh;
-     width: 100px;
      background-color: #0000;
      line-height: 7vh;
      text-decoration: none;
+     color: rgb(153, 30, 71);
+     font-size: 24px;
+     text-align: center;
+     padding: calc(3.5vh - 12px) 40px;
+     font-family: Arial, Helvetica, sans-serif;
+
 }
 
+nav a:hover {
+     background-color: #fff;
+     transition: 1s ease;
+}
+
+header i:nth-of-type(2) {
+     right: 30px;
+     top: 17px;
+     font-size: 30px;
+     color: rgb(153, 30, 71);
+}
+
+header i:nth-of-type(1) {
+     right: 90px;
+     top: 17px;
+     font-size: 30px;
+     color: rgb(153, 30, 71);
+}
