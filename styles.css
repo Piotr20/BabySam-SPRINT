@@ -3,6 +3,17 @@
      padding: 0;
      box-sizing: border-box;
 }
+.section_container
+{
+    display: flex;
+    justify-content: center;
+}
+.input_container
+{
+    height: 25px;
+    border-radius: 15%;
+    width:
+}
 
 header {
      width: 100%;
@@ -33,3 +44,4 @@ nav a {
      line-height: 7vh;
      text-decoration: none;
 }
+
