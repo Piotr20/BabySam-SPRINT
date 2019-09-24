@@ -69,6 +69,7 @@ header i:nth-of-type(2) {
      font-size: 30px;
      color: rgb(153, 30, 71);
      cursor: pointer;
+     transition: 0.7s ease;
 }
 
 header i:nth-of-type(1) {
@@ -77,6 +78,11 @@ header i:nth-of-type(1) {
      font-size: 30px;
      color: rgb(153, 30, 71);
      cursor: pointer;
+     transition: 0.7s ease;
+}
+
+header i:hover {
+     color: white;
 }
 
 .content {
@@ -102,4 +108,5 @@ header i:nth-of-type(1) {
      width: 504px;
      position: absolute;
      top: 6vh;
+     transition: 0.8s ease;
 }
