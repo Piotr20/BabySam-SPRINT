@@ -7,11 +7,19 @@
 .section_container {
      display: flex;
      justify-content: center;
+     color: rgb(153, 30, 71);
 }
 
 .input_container {
-     height: 25px;
-     border-radius: 15%;
+     height: 30px;
+     border-radius: 25px;
+     border-color: mediumvioletred;
+     width: 4vj;
+     font-size: 25px;
+     margin-top: 15px;
+     text-align: center;
+     border-style: solid;
+     color: rgb(153, 30, 71);
 }
 
 header {
@@ -67,4 +75,13 @@ header i:nth-of-type(1) {
      top: 17px;
      font-size: 30px;
      color: rgb(153, 30, 71);
+}
+
+placeholder {
+     color: red;
+}
+
+.mappic {
+     height: 500px;
+     width: 800px;
 }
