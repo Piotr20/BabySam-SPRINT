@@ -68,6 +68,7 @@ header i:nth-of-type(2) {
      top: 17px;
      font-size: 30px;
      color: rgb(153, 30, 71);
+     cursor: pointer;
 }
 
 header i:nth-of-type(1) {
@@ -75,13 +76,30 @@ header i:nth-of-type(1) {
      top: 17px;
      font-size: 30px;
      color: rgb(153, 30, 71);
+     cursor: pointer;
 }
 
-placeholder {
-     color: red;
+.content {
+     display: grid;
+     grid-template-columns: 3fr 4fr;
+     position: relative;
 }
 
-.mappic {
-     height: 500px;
-     width: 800px;
+.content img {
+     border: 5px solid rgb(153, 30, 71);
+     border-radius: 6%;
+     grid-column: 1/2;
+     width: 120px;
+     cursor: pointer;
+     left: calc(3/14 * 1920px - 252px);
+     position: absolute;
+     top: calc(6vh + 504px + 25px);
+
+}
+
+#big {
+     justify-self: center;
+     width: 504px;
+     position: absolute;
+     top: 6vh;
 }
