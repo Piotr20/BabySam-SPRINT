@@ -4,22 +4,21 @@
      box-sizing: border-box;
 }
 
-.section_container {
-     display: flex;
-     justify-content: center;
-     color: rgb(153, 30, 71);
-}
 
 .input_container {
-     height: 30px;
+     height: 32px;
      border-radius: 25px;
      border-color: mediumvioletred;
-     width: 4vj;
+     width: 0vw;
      font-size: 25px;
-     margin-top: 15px;
+     margin-top: 16px;
      text-align: center;
      border-style: solid;
      color: rgb(153, 30, 71);
+     position: absolute;
+     right: 46vw;
+     transition: 1s ease;
+
 }
 
 header {
@@ -38,6 +37,11 @@ header img {
 
 header i {
      position: absolute;
+}
+
+header nav i {
+     top: 1vh;
+     left: 55vw;
 }
 
 header nav {
@@ -81,7 +85,7 @@ header i:nth-of-type(1) {
      transition: 0.7s ease;
 }
 
-header i:hover {
+header>i:hover {
      color: white;
 }
 
