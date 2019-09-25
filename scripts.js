@@ -18,7 +18,7 @@ i.addEventListener('mouseover', function () {
 
      window.setTimeout(function () {
           inp.style.width = '0vw';
-     }, 3000);
+     }, 2000);
      inp.style.width = '17vw';
 })
 
