@@ -11,9 +11,18 @@ img1.addEventListener('click', function () {
 })
 
 const i = document.querySelector('nav>i');
-const inp = document.querySelector('nav>input')
+const inp = document.querySelector('nav>input');
+
 
 i.addEventListener('mouseover', function () {
+
+     window.setTimeout(function () {
+          inp.style.width = '0vw';
+     }, 4000);
+     inp.style.width = '17vw';
+})
+
+inp.addEventListener('focus', function () {
      inp.style.width = '17vw';
 })
 

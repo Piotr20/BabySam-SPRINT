@@ -131,3 +131,102 @@ header>i:hover {
     border: 1px solid red;
     display: inline-block;
 }
+
+.content h1 {
+    grid-column: 2/3;
+    margin-top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(153, 30, 71);
+}
+
+.content p {
+    grid-column: 2/3;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(153, 30, 71);
+    width: 90%;
+}
+
+.content h3 {
+    grid-column: 2/3;
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    border-left: 0px;
+}
+
+.buttonthing {
+    grid-column: 2/3;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(153, 30, 71);
+    border-radius: 35px;
+    width: 500px;
+    border: 3px solid rgb(153, 30, 71);
+    height: 70px;
+    transition: 0.1s linear;
+}
+
+.buttonthing:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+.mapouter_container {
+    display: flex;
+    text-align: right;
+    margin-top: 455px;
+}
+
+.gmap_canvas_container {
+    overflow: hidden;
+    background: none !important;
+    display: flex;
+}
+
+.check {
+    text-decoration: none;
+    color: white;
+}
+
+.content div.price {
+    grid-column: 2/3;
+    width: 90%;
+    border-top: solid rgb(153, 30, 71);
+    border-bottom: solid rgb(153, 30, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 30px 0;
+
+}
+
+div.price h2,
+div.price h4 {
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.recomendation {
+    grid-column: 2/3;
+    width: 450px;
+    height: 70px;
+    position: absolute;
+    top: 397px;
+    right: 10%;
+    display: flex;
+}
+
+.recomendation a {
+    bottom: 0;
+    align-self: flex-end;
+    color: rgb(153, 30, 71);
+    font-size: 22px;
+    margin-left: 20px;
+}
