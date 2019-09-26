@@ -294,7 +294,7 @@ div.price h4 {
 }
 
 body {
-    background: url(babybackground.jpg)
+    background: url(MockUp/babybackground.jpg)
 }
 
 .whatever {
@@ -359,11 +359,19 @@ body {
 .info {
     width: 82%;
     height: 375px;
-    background-color: #ffe;
+    background-color: #fff;
     grid-column: 2/3;
     justify-self: center;
     top: 470px;
     position: absolute;
     border: 5px solid #FA7268;
     border-radius: 50px;
+    transition: 0.3s linear;
+}
+
+.content div:nth-of-type(3) p {
+    color: transparent;
+    margin-left: 25px;
+    position: absolute;
+
 }

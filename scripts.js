@@ -87,3 +87,14 @@ s5.addEventListener('mouseover', function () {
           s5.style.color = 'transparent';
      })
 })
+const a = document.querySelector('.recomendation>a');
+const div = document.querySelector('.content>div:nth-of-type(3)');
+const p = document.querySelector('.content>div:nth-of-type(3)>p');
+a.addEventListener('mouseover', function () {
+     div.setAttribute('class', 'info');
+     p.style.color = '#FA7268';
+})
+a.addEventListener('mouseout', function () {
+     div.removeAttribute('class', 'info');
+     p.style.color = 'transparent';
+})
