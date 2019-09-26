@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
@@ -27,7 +28,8 @@ html {
 header {
     width: 100%;
     height: 7vh;
-    background-color: rgb(221, 221, 221);
+    border-bottom: 2px solid #fdfd96;
+    ;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -278,19 +280,24 @@ div.price h4 {
 .recomendation i:nth-of-type(10) {
     margin-left: 152px;
 }
-body{
+
+body {
     background: url(babybackground.jpg)
 }
-.whatever{
+
+.whatever {
     display: inline-flex;
 }
-.hello{
+
+.hello {
     color: black;
     text-decoration: none;
 }
-.mapsection{
+
+.mapsection {
     margin-top: 790px;
 }
-.map2{
+
+.map2 {
     width: 335px;
 }
