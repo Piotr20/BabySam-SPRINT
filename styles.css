@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 .input_container {
@@ -114,7 +117,7 @@ header>i:hover {
     transition: 0.8s ease;
 }
 
-.mapouter_container {
+.mapouter {
     display: flex;
     text-align: right;
     margin-top: 855px;
@@ -162,7 +165,7 @@ header>i:hover {
     grid-column: 2/3;
     margin-top: 30px;
     font-size: 30px;
-    color: #fff;
+    color: white;
     font-family: Helvetica, sans-serif;
     background-color: rgb(153, 30, 71);
     border-radius: 35px;
@@ -177,7 +180,7 @@ header>i:hover {
     color: #000;
 }
 
-.mapouter_container {
+.mapouter {
     display: flex;
     text-align: right;
     margin-top: 455px;
@@ -274,4 +277,20 @@ div.price h4 {
 
 .recomendation i:nth-of-type(10) {
     margin-left: 152px;
+}
+body{
+    background: url(babybackground.jpg)
+}
+.whatever{
+    display: inline-flex;
+}
+.hello{
+    color: black;
+    text-decoration: none;
+}
+.mapsection{
+    margin-top: 790px;
+}
+.map2{
+    width: 335px;
 }
