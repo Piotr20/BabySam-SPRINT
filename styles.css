@@ -15,7 +15,7 @@ html {
     border-color: #FA7268;
     width: 0vw;
     font-size: 25px;
-    margin-top: 16px;
+    margin-top: 15px;
     text-align: center;
     border-style: solid;
     color: #FA7268;
@@ -31,7 +31,11 @@ header {
     border-bottom: 2px solid #FA7268;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.781);
+    z-index: 2;
+    left: 0;
+    top: 0;
 }
 
 header img {
@@ -62,18 +66,14 @@ nav a {
     font-size: 24px;
     text-align: center;
     padding: calc(3.5vh - 12px) 40px;
-<<<<<<< HEAD
-    font-family: Helvetica, sans-serif;
-=======
     padding-bottom: 12px;
     font-family: 'Righteous', sans-serif;
->>>>>>> 5854c4acd543a68c1bd5ae61905cddeef9c69222
     transition: 1s ease;
     font-weight: bolder;
 }
 
 nav a:hover {
-    background-color: #fff;
+    color: rgb(175, 165, 165);
     transition: 1s ease;
 }
 
@@ -95,19 +95,16 @@ header i:nth-of-type(1) {
     transition: 0.7s ease;
 }
 
-header > i:hover {
-    color: white;
+header>i:hover {
+    color: rgb(175, 165, 165);
 }
 
 .content {
     display: grid;
     grid-template-columns: 3fr 4fr;
     position: relative;
-<<<<<<< HEAD
-
-=======
     font-family: 'Chilanka';
->>>>>>> 5854c4acd543a68c1bd5ae61905cddeef9c69222
+    margin-top: 10vh;
 }
 
 
@@ -115,22 +112,18 @@ header > i:hover {
     border: 5px solid #FA7268;
     border-radius: 6%;
     grid-column: 1/2;
-    width: 15%;
+    width: 120px;
     cursor: pointer;
     left: calc(3/14 * 1920px - 252px);
     position: absolute;
-<<<<<<< HEAD
-    top: calc(6vh + 504px + 25px + 60px);
-=======
     top: calc(6vh + 504px + 25px);
     font-family: 'Chilanka';
->>>>>>> 5854c4acd543a68c1bd5ae61905cddeef9c69222
 
 }
 
 #big {
     justify-self: center;
-    width: 70%;
+    width: 504px;
     position: absolute;
     top: 6vh;
     transition: 0.8s ease;
@@ -139,14 +132,14 @@ header > i:hover {
 .mapouter {
     display: flex;
     text-align: right;
-    margin-top: 855px;
+    margin-top: 700px;
 }
 
 .gmap_canvas_container {
     overflow: hidden;
     background: none !important;
     display: flex;
-
+    height: 93vh;
 }
 
 .boxed {
@@ -208,6 +201,7 @@ header > i:hover {
     overflow: hidden;
     background: none !important;
     display: flex;
+
 }
 
 .check {
@@ -239,7 +233,7 @@ div.price h4 {
     width: 450px;
     height: 70px;
     position: absolute;
-    top: 397px;
+    top: 335px;
     right: 10%;
     display: flex;
 }
@@ -254,47 +248,49 @@ div.price h4 {
 
 .recomendation i {
     position: absolute;
-    font-size: 24px;
-    margin-top: 8px;
+    font-size: 28px;
+    margin-top: 5px;
     cursor: pointer;
-    margin-left: 12px;
+    margin-left: 19px;
 }
 
 .recomendation i:nth-of-type(2n+1) {
-    display: none;
-    color: darkorange;
+
+    color: transparent;
+    z-index: 1;
+    transition: 0.3s ease;
 }
 
 .recomendation i:nth-of-type(3) {
-    margin-left: 47px;
+    margin-left: 54px;
 }
 
 .recomendation i:nth-of-type(4) {
-    margin-left: 47px;
+    margin-left: 54px;
 }
 
 .recomendation i:nth-of-type(5) {
-    margin-left: 82px;
+    margin-left: 89px;
 }
 
 .recomendation i:nth-of-type(6) {
-    margin-left: 82px;
+    margin-left: 89px;
 }
 
 .recomendation i:nth-of-type(7) {
-    margin-left: 117px;
+    margin-left: 124px;
 }
 
 .recomendation i:nth-of-type(8) {
-    margin-left: 117px;
+    margin-left: 124px;
 }
 
 .recomendation i:nth-of-type(9) {
-    margin-left: 152px;
+    margin-left: 159px;
 }
 
 .recomendation i:nth-of-type(10) {
-    margin-left: 152px;
+    margin-left: 159px;
 }
 
 body {
@@ -312,16 +308,14 @@ body {
 }
 
 .mapsection {
-    margin-top: 790px;
+    margin-top: 700px;
+    height: 40vh;
 }
 
 .map2 {
-    width: 335px;
+    width: 400px;
 }
 
-.gloves {
-    font-family: 'Chilanka', sans-serif;
-}
 
 .content {
     color: #FA7268;
@@ -334,4 +328,42 @@ body {
 
 .boxed {
     border-color: darkgrey;
+}
+
+.content>i:nth-of-type(1) {
+    position: absolute;
+    right: 5.75%;
+    top: 320px;
+    font-size: 90px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.content>i:nth-of-type(2) {
+    position: absolute;
+    right: 11.75%;
+    top: 320px;
+    font-size: 90px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.content>i:nth-of-type(2):hover {
+    color: rgb(175, 165, 165);
+}
+
+.content>i:nth-of-type(1):hover {
+    color: rgb(175, 165, 165);
+}
+
+.info {
+    width: 82%;
+    height: 375px;
+    background-color: #ffe;
+    grid-column: 2/3;
+    justify-self: center;
+    top: 470px;
+    position: absolute;
+    border: 5px solid #FA7268;
+    border-radius: 50px;
 }
