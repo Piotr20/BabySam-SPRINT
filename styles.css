@@ -12,13 +12,13 @@ html {
 .input_container {
     height: 32px;
     border-radius: 25px;
-    border-color: mediumvioletred;
+    border-color: #FA7268;
     width: 0vw;
     font-size: 25px;
     margin-top: 16px;
     text-align: center;
     border-style: solid;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     position: absolute;
     right: 46vw;
     transition: 1s ease;
@@ -28,8 +28,7 @@ html {
 header {
     width: 100%;
     height: 7vh;
-    border-bottom: 2px solid #fdfd96;
-    ;
+    border-bottom: 2px solid #FA7268;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -58,12 +57,14 @@ nav a {
     background-color: #0000;
     line-height: 7vh;
     text-decoration: none;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     font-size: 24px;
     text-align: center;
     padding: calc(3.5vh - 12px) 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 12px;
+    font-family: 'Righteous', sans-serif;
     transition: 1s ease;
+    font-weight: bolder;
 }
 
 nav a:hover {
@@ -75,7 +76,7 @@ header i:nth-of-type(2) {
     right: 30px;
     top: 17px;
     font-size: 30px;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     cursor: pointer;
     transition: 0.7s ease;
 }
@@ -84,7 +85,7 @@ header i:nth-of-type(1) {
     right: 90px;
     top: 17px;
     font-size: 30px;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     cursor: pointer;
     transition: 0.7s ease;
 }
@@ -97,10 +98,12 @@ header>i:hover {
     display: grid;
     grid-template-columns: 3fr 4fr;
     position: relative;
+    font-family: 'Chilanka';
 }
 
+
 .content img {
-    border: 5px solid rgb(153, 30, 71);
+    border: 5px solid #FA7268;
     border-radius: 6%;
     grid-column: 1/2;
     width: 120px;
@@ -108,6 +111,7 @@ header>i:hover {
     left: calc(3/14 * 1920px - 252px);
     position: absolute;
     top: calc(6vh + 504px + 25px);
+    font-family: 'Chilanka';
 
 }
 
@@ -141,9 +145,9 @@ header>i:hover {
     grid-column: 2/3;
     margin-top: 50px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Leckerli+One', cursive;
     font-size: 40px;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
 }
 
 .content p {
@@ -151,7 +155,7 @@ header>i:hover {
     margin-top: 40px;
     font-size: 30px;
     font-family: Helvetica, sans-serif;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     width: 90%;
 }
 
@@ -167,19 +171,18 @@ header>i:hover {
     grid-column: 2/3;
     margin-top: 30px;
     font-size: 30px;
-    color: white;
+    color: #FA7268;
     font-family: Helvetica, sans-serif;
-    background-color: rgb(153, 30, 71);
+    background-color: #FA7268;
     border-radius: 35px;
     width: 500px;
-    border: 3px solid rgb(153, 30, 71);
+    border: 3px solid #FA7268;
     height: 70px;
     transition: 0.2s linear;
 }
 
-.buttonthing:hover {
-    background-color: #ffff;
-    color: #000;
+.hello:hover {
+    opacity: 0.4;
 }
 
 .mapouter {
@@ -202,8 +205,8 @@ header>i:hover {
 .content div.price {
     grid-column: 2/3;
     width: 90%;
-    border-top: solid rgb(153, 30, 71);
-    border-bottom: solid rgb(153, 30, 71);
+    border-top: solid #FA7268;
+    border-bottom: solid #FA7268;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,7 +234,7 @@ div.price h4 {
 .recomendation a {
     bottom: 0;
     align-self: flex-end;
-    color: rgb(153, 30, 71);
+    color: #FA7268;
     font-size: 24px;
     margin-left: 13px;
 }
@@ -246,7 +249,7 @@ div.price h4 {
 
 .recomendation i:nth-of-type(2n+1) {
     display: none;
-    color: rgb(255, 255, 56);
+    color: darkorange;
 }
 
 .recomendation i:nth-of-type(3) {
@@ -290,8 +293,9 @@ body {
 }
 
 .hello {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
+    font-family: 'Righteous';
 }
 
 .mapsection {
@@ -300,4 +304,14 @@ body {
 
 .map2 {
     width: 335px;
+}
+.gloves {
+    font-family: 'Chilanka', sans-serif;
+}
+.content{
+    color: #FA7268;
+    font-family: 'Righteous';
+}
+.content p{
+    font-family: 'Righteous';
 }
