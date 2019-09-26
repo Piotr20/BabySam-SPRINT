@@ -62,7 +62,7 @@ nav a {
     font-size: 24px;
     text-align: center;
     padding: calc(3.5vh - 12px) 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     transition: 1s ease;
 }
 
@@ -97,23 +97,24 @@ header>i:hover {
     display: grid;
     grid-template-columns: 3fr 4fr;
     position: relative;
+
 }
 
 .content img {
     border: 5px solid rgb(153, 30, 71);
     border-radius: 6%;
     grid-column: 1/2;
-    width: 120px;
+    width: 15%;
     cursor: pointer;
     left: calc(3/14 * 1920px - 252px);
     position: absolute;
-    top: calc(6vh + 504px + 25px);
+    top: calc(6vh + 504px + 25px + 60px);
 
 }
 
 #big {
     justify-self: center;
-    width: 504px;
+    width: 70%;
     position: absolute;
     top: 6vh;
     transition: 0.8s ease;
