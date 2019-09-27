@@ -16,18 +16,34 @@ const inp = document.querySelector('nav>input');
 
 i.addEventListener('mouseover', function () {
 
-     window.setTimeout(function () {
-          inp.style.width = '0vw';
-     }, 3000);
+     // window.setTimeout(function () {
+     //      inp.style.width = '0vw';
+     // }, 5000);
      inp.style.width = '17vw';
 })
+
+
 
 inp.addEventListener('focus', function () {
      inp.style.width = '17vw';
 })
+inp.addEventListener('mouseover', function () {
+     inp.style.width = '17vw';
+})
+inp.addEventListener('mouseout', function () {
 
+     window.setTimeout(function () {
+          inp.style.width = '0vw';
+     }, 3000);
+})
 inp.addEventListener('blur', function () {
      inp.style.width = '0vw';
+})
+i.addEventListener('mouseout', function () {
+
+     window.setTimeout(function () {
+          inp.style.width = '0vw';
+     }, 3000);
 })
 
 const s1 = document.querySelector(".recomendation>i:nth-of-type(1)");
