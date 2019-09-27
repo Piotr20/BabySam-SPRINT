@@ -15,10 +15,6 @@ const inp = document.querySelector('nav>input');
 
 
 i.addEventListener('mouseover', function () {
-
-     // window.setTimeout(function () {
-     //      inp.style.width = '0vw';
-     // }, 5000);
      inp.style.width = '17vw';
 })
 
